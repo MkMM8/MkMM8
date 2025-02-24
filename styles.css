@@ -7,9 +7,19 @@ body {
 }
 
 header {
-    background: url('assets/_46048d19-56fc-482c-8e79-faa270358f43.jpg') center/cover no-repeat;
+    background: url('assets/img2.jpg') center center no-repeat;
+    background-size: cover;
     padding: 20px;
     text-align: center;
+    min-height: 200px;
+}
+
+/* para pantallas más pequeñas */
+@media (max-width: 600px) {
+    header {
+        padding: 10px;
+        min-height: 150px;
+    }
 }
 
 
