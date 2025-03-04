@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background: url('assets/waves.jpg') center center no-repeat;
+    background-color: rgb(0, 0, 0)
     background-size: cover;
     padding: 20px;
     text-align: center;
